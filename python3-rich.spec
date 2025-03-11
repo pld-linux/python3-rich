@@ -2,7 +2,7 @@
 Summary:	Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
 Name:		python3-%{module}
 Version:	13.9.4
-Release:	2
+Release:	3
 License:	MIT
 Group:		Libraries/Python
 Source0:	https://pypi.debian.net/%{module}/%{module}-%{version}.tar.gz
