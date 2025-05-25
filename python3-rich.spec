@@ -1,5 +1,6 @@
 %define		module	rich
 Summary:	Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
+Summary(pl.UTF-8):	Renderowanie wzbogaconego tekstu, tabel, pasków postępu, podświetlania składni, znaczników itp. na terminalu
 Name:		python3-%{module}
 Version:	13.9.4
 Release:	3
@@ -21,6 +22,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Rich is a Python library for rich text and beautiful formatting in the
 terminal.
+
+%description -l pl.UTF-8
+Rich to biblioteka Pythona do wzbogaconego tekstu i ładnego
+formatowania na terminalu.
 
 %prep
 %setup -q -n %{module}-%{version}
