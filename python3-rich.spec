@@ -2,12 +2,13 @@
 Summary:	Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
 Summary(pl.UTF-8):	Renderowanie wzbogaconego tekstu, tabel, pasków postępu, podświetlania składni, znaczników itp. na terminalu
 Name:		python3-%{module}
-Version:	13.9.4
-Release:	3
+Version:	14.2.0
+Release:	1
 License:	MIT
 Group:		Libraries/Python
-Source0:	https://pypi.debian.net/rich/%{module}-%{version}.tar.gz
-# Source0-md5:	566d05ed481cd8add803fa9ca002720b
+#Source0Download: https://pypi.org/simple/rich/
+Source0:	https://files.pythonhosted.org/packages/source/r/rich/%{module}-%{version}.tar.gz
+# Source0-md5:	82b63b3508472d9e8393e571d74ab1a1
 URL:		https://pypi.org/project/rich/
 BuildRequires:	python3-build
 BuildRequires:	python3-installer
